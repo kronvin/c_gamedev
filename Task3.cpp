@@ -1,7 +1,10 @@
 // Task3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#define _USE_MATH_DEFINES
 #include <iostream>
+#include <cmath>
+
 using namespace std;
 
 
@@ -13,10 +16,14 @@ int main()
     cout << "Enter your seconds in game:" << endl;
     cin >> GameTime;
 
-    int hours = GameTime / 3600;                 // Divide to get hours
-    int remainingSeconds = GameTime % 3600;      // Get the remaining seconds after receiving the hours
-    int minutes = remainingSeconds / 60;         // Get minutes from remaining seconds
-    int seconds = remainingSeconds % 60;         // Remaining seconds after dividing 
+    const unsigned SecondsInMinute = 60;
+    const unsigned MinutesInHour = 60;
+    const unsigned SecondsInHour = SecondsInMinute * MinutesInHour;
+
+    int hours = GameTime / SecondsInHour;                 // Divide to get hours
+    int remainingSeconds = GameTime % SecondsInHour;      // Get the remaining seconds after receiving the hours
+    int minutes = remainingSeconds / SecondsInMinute;         // Get minutes from remaining seconds
+    int seconds = remainingSeconds % SecondsInMinute;         // Remaining seconds after dividing 
 
     cout << hours << " hours, " << minutes << " minutes, " << seconds << " seconds" << endl << endl;
 
@@ -34,12 +41,13 @@ int main()
     cin >> ThirdNumber;
 
     
-    int Multiplication = FirstNumber * SecondNumber * ThirdNumber;
-    int Sum = FirstNumber + SecondNumber + ThirdNumber;
+    double Multiplication = FirstNumber * SecondNumber * ThirdNumber;
+    double Sum = FirstNumber + SecondNumber + ThirdNumber;
+    double Average = Sum / 3;
 
     cout << "Multiplication: " << Multiplication << endl;
     cout << "Sum: " << Sum << endl;
-    cout << "Average: " << Sum / 3 << endl << endl;
+    cout << "Average: " << Average << endl << endl;
 
 
     //3
@@ -83,13 +91,12 @@ int main()
     //5
 
     double radius;
-    const double PI = 3.14;
 
     cout << "Enter circle radius: " << endl;
     cin >> radius;
 
-    double CircleArea = radius * radius * PI;
-    double CircleLength = 2 * PI * radius;
+    double CircleArea = radius * radius * M_PI;
+    double CircleLength = 2 * M_PI * radius;
 
     cout << "Circle area is " << CircleArea << " cm." << endl;
     cout << "Circle length is " << CircleLength << " cm." << endl << endl;
