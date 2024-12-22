@@ -39,7 +39,7 @@ int main()
 		max = (SecondNum > ThirdNum) ? SecondNum : ThirdNum;
 		max = (ThirdNum > FirstNum) ? ThirdNum : FirstNum;
 
-		std::cout << "The greatest number is " << max << std::endl << std::endl;
+		std::cout << "The greatest number is " << max << std::endl << std::endl;              //Corrected
 	};
 
 
@@ -144,7 +144,7 @@ int main()
 	case Month::Nov:
 
 		std::cout << "Season - Autumn" << std::endl << std::endl;
-		break;
+		break;                                                           // Corrected
 
 	};
 
@@ -159,7 +159,7 @@ int main()
 	std::cin >> NumberA;
 	std::cin >> NumberB;
 
-	if (NumberA == NumberB)
+	if (NumberA == NumberB)                                                    // "=" instead of "==" :/ sorry
 	{
 		std::cout << "There's no lowest number." << std::endl << std::endl;
 	}
@@ -224,6 +224,6 @@ int main()
 			std::cout << "The month is December" << std::endl << std::endl;
 			break;
 		};
-	};
+	};                                                                               // Corrected
 	return 0;
 };
