@@ -39,8 +39,12 @@ int main()
 
 	//2
 
+	int ChosenShape;
 	int NumberOfRows;
 	int NumberOfColumns;
+
+	std::cout << "Please chose your Shape. 1 - Rectangle, 2 - Reversed triangle, 3 - Triangle, 4 - Shifted rectangle, 6 - Triangle with numbers." << std::endl;
+	std::cin >> ChosenShape;
 
 	std::cout << "Please enter number of rows: " << std::endl;
 	std::cin >> NumberOfRows;
@@ -48,17 +52,76 @@ int main()
 	std::cout << "Please enter number of columns: " << std::endl;
 	std::cin >> NumberOfColumns;
 
-	for (int i = 0; i < NumberOfRows; i++)
+	if (ChosenShape == 1)
 	{
-		for (int j = 0; j < NumberOfColumns; j++)
+		for (int i = 0; i < NumberOfRows; i++)
 		{
-			std::cout << "* ";
+			for (int j = 0; j < NumberOfColumns; j++)
+			{
+				std::cout << "* ";
+			};
+
+			std::cout << std::endl;
 		};
-		
-		std::cout << std::endl;
+	}
+	else if (ChosenShape == 2)
+	{
+		for (int i = 0; i < NumberOfRows; i++)
+		{
+			for (int j = 0; j < NumberOfRows - i; j++)
+			{
+				std::cout << "* ";
+			};
+
+			std::cout << std::endl;
+		};
+	}
+	else if (ChosenShape == 3)
+	{
+		for (int i = 0; i < NumberOfRows; i++)
+		{
+			for (int j = 0; j <= i; j++)
+			{
+				std::cout << "* ";
+			};
+
+			std::cout << std::endl;
+		};
+	}
+	else if (ChosenShape == 4)
+	{
+		for (int i = 0; i < NumberOfRows; i++)
+		{
+			for (int j = 0; j < i; j++)
+			{
+				std::cout << "  ";
+			}
+			for (int j = 0; j < NumberOfColumns; j++)
+			{
+				std::cout << "* ";
+			};
+
+			std::cout << std::endl;
+		};
+	}
+	else if (ChosenShape == 5)
+	{
+		for (int i = 0; i < NumberOfRows; i++)
+		{
+			for (int j = 0; j <= i; j++)
+			{
+				if ((i + j) % 2 == 0)
+					std::cout << "1 ";
+				else
+					std::cout << "0 ";
+			};
+
+			std::cout << std::endl;
+		};
 	};
 
 	std::cout << std::endl << std::endl;
+
 
 
 	//3
@@ -149,9 +212,9 @@ int main()
 	}
 	else
 	{
-		int Multiplication = 1;
+		int Multiplication = 2;
 
-		for (int i = 1; i <= n; i++)
+		for (int i = 2; i <= n; i++)
 		{
 			Multiplication *= i;
 		}
