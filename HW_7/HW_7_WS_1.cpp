@@ -1,4 +1,4 @@
-// HW_7(WS_1).cpp
+// Homework 7
 
 
 #include <iostream>
