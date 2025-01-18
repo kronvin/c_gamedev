@@ -3,13 +3,6 @@
 #include <iostream>
 #include "Functions.h";
 
-
-
-//Функція для порівняння двох рядків без використання вбудованих бібліотек :
-//bool isEqual(const char str1[], const char str2[]);
-
-
-
 int main()
 {
     //1
