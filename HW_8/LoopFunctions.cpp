@@ -35,7 +35,6 @@ void CheckOutNumbers(int n)
 	std::cout << "Negative: " << Negative << std::endl;
 	std::cout << "Zeroes: " << Zeroes << std::endl << std::endl;
 
-	return;
 }
 
 
@@ -49,23 +48,17 @@ int Factorial(int Count)
 		Factorial *= i;
 	}
 
-	std::cout << "The factorial for " << Count << " is " << Factorial << "." << std::endl << std::endl;
-
 	return Factorial;
 }
 
 
 //4
-//від найбільшого до найменшого за допомогою рекурсії;
-//від найменшого до найбільшого за допомогою рекурсії;
 void PrintNumbers_High_Low(int Number)
 {
-	for (int i = Number; i >= 1; i --)
+	for (int i = Number; i >= 1; i--)
 	{
 		std::cout << i << std::endl;
-	}
-
-	return;
+	};
 }
 
 void PrintNumbers_Low_High(int Number)
@@ -75,5 +68,4 @@ void PrintNumbers_Low_High(int Number)
 		std::cout << i << std::endl;
 	}
 
-	return;
 }

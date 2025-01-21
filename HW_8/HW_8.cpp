@@ -1,4 +1,4 @@
-// HW_8.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// HW_8.cpp
 //
 
 #include <iostream>
@@ -8,7 +8,6 @@
 #include <math.h>
 
 //3
-//Функції обрахунку площі та довжини кола: float getArea(float radius), float getCircumference(float radius);
 float GetArea(float radius)
 {
     float Area = 0;
@@ -59,10 +58,11 @@ int main()
     std::cout << "Please enter a number to count a factorial: " << std::endl;
     std::cin >> Count;
 
-    Factorial(Count);
+    std::cout << "The factorial for " << Count << " defined through loop is " << Factorial(Count) << "." << std::endl << std::endl;
 
+    
     //2(1)
-    std::cout << "The result of recursion function is: " << FactorialRecursion(Count) << std::endl << std::endl;;
+    std::cout << "The factrorial result of recursion function is: " << FactorialRecursion(Count) << std::endl << std::endl;
 
 
     //3

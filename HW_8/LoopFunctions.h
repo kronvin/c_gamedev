@@ -1,5 +1,5 @@
 
-#define LoopFunctions
+#pragma once
 
 //1
 void CheckOutNumbers(int n);

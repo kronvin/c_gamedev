@@ -10,11 +10,7 @@ int FactorialRecursion(int Count)
 	{
 		return 1;
 	}
-	else
-	{
-		return Count * FactorialRecursion(Count - 1);
-	};
-
+	return Count * FactorialRecursion(Count - 1);
 }
 
 //4(1)

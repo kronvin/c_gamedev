@@ -1,5 +1,5 @@
 
-#define Recursion
+#pragma once
 
 // 2(1)
 int FactorialRecursion(int Count);

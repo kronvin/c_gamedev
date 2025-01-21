@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\attin\\source\\repos\\HW_8\\",
+  "WorkspaceRootPath": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|C:\\Users\\attin\\source\\repos\\HW_8\\Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|C:\\Users\\attin\\source\\repos\\HW_8\\Recursion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:Recursion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|C:\\Users\\attin\\source\\repos\\HW_8\\HW_8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\HW_8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:HW_8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|C:\\Users\\attin\\source\\repos\\HW_8\\LoopFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\LoopFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:LoopFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|C:\\Users\\attin\\source\\repos\\HW_8\\LoopFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\Recursion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:Recursion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\LoopFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:LoopFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3961C161-B1B7-437E-AF38-EAD78921B11D}|HW_8.vcxproj|solutionrelative:Recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +30,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Recursion.cpp",
-              "DocumentMoniker": "C:\\Users\\attin\\source\\repos\\HW_8\\Recursion.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\Recursion.cpp",
               "RelativeDocumentMoniker": "Recursion.cpp",
-              "ToolTip": "C:\\Users\\attin\\source\\repos\\HW_8\\Recursion.cpp*",
-              "RelativeToolTip": "Recursion.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
+              "ToolTip": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\Recursion.cpp",
+              "RelativeToolTip": "Recursion.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T21:19:16.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Recursion.h",
-              "DocumentMoniker": "C:\\Users\\attin\\source\\repos\\HW_8\\Recursion.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\Recursion.h",
               "RelativeDocumentMoniker": "Recursion.h",
-              "ToolTip": "C:\\Users\\attin\\source\\repos\\HW_8\\Recursion.h",
+              "ToolTip": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\Recursion.h",
               "RelativeToolTip": "Recursion.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -60,39 +60,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LoopFunctions.cpp",
-              "DocumentMoniker": "C:\\Users\\attin\\source\\repos\\HW_8\\LoopFunctions.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\LoopFunctions.cpp",
               "RelativeDocumentMoniker": "LoopFunctions.cpp",
-              "ToolTip": "C:\\Users\\attin\\source\\repos\\HW_8\\LoopFunctions.cpp",
+              "ToolTip": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\LoopFunctions.cpp",
               "RelativeToolTip": "LoopFunctions.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAADwv0YAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T20:31:24.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoopFunctions.h",
-              "DocumentMoniker": "C:\\Users\\attin\\source\\repos\\HW_8\\LoopFunctions.h",
+              "DocumentMoniker": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\LoopFunctions.h",
               "RelativeDocumentMoniker": "LoopFunctions.h",
-              "ToolTip": "C:\\Users\\attin\\source\\repos\\HW_8\\LoopFunctions.h",
+              "ToolTip": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\LoopFunctions.h",
               "RelativeToolTip": "LoopFunctions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-15T20:31:04.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "HW_8.cpp",
-              "DocumentMoniker": "C:\\Users\\attin\\source\\repos\\HW_8\\HW_8.cpp",
+              "DocumentMoniker": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\HW_8.cpp",
               "RelativeDocumentMoniker": "HW_8.cpp",
-              "ToolTip": "C:\\Users\\attin\\source\\repos\\HW_8\\HW_8.cpp",
+              "ToolTip": "D:\\C\u002B\u002B_GamedevCourse\\HomeWorks\\c_gamedev\\HW_8\\HW_8.cpp",
               "RelativeToolTip": "HW_8.cpp",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwv2QAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-15T20:13:46.403Z",
               "EditorCaption": ""
