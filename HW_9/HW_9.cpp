@@ -1,7 +1,7 @@
 // HW_9.cpp
 
 #include <iostream>
-#include "Functions.h";
+#include "StringOperations.h";
 
 int main()
 {
@@ -66,7 +66,7 @@ int main()
     int VowelsCount = 0;
     int ConsonCount = 0;
 
-    CountVowCons(CountString, VowelsCount, ConsonCount);
+    CountVowelsConsonants(CountString, VowelsCount, ConsonCount);
 
     std::cout << "The number of vowels: " << VowelsCount << std::endl;
     std::cout << "The number of consonants: " << ConsonCount << std::endl << std::endl;
